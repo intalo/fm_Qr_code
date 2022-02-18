@@ -1,0 +1,30 @@
+body {
+    background: hsl(212, 45%, 89%);
+}
+#qrcode_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 250px;
+    padding: 13px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 25px 50px hsla(219, 15%, 55%, 0.356);
+}
+#qrcode_image {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+#qrcode_title {
+    color: #233048;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+#qrcode_paragraph {
+    color: #83838a;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
